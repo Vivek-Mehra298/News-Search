@@ -1,0 +1,28 @@
+@media screen and (max-width:830px) {
+    li{
+        display: none;
+    }
+ }
+ @media screen and (max-width:470px) {
+    nav{
+        display: flex;
+       flex-direction: column;
+       text-align: center;
+       justify-content: center;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .search-bar{
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+    }
+ }
+ @media screen and (max-width:900px)
+ {
+   .category{
+       margin-top : 200px;
+       margin-left: 64px;
+   }
+ }
